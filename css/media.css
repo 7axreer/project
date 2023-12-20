@@ -1,0 +1,149 @@
+
+
+@media(max-width: 1100px) {
+    .title {
+        margin: 50px auto;
+        font-size: 30px;
+        
+    }
+    
+    .item2{
+        grid-column: span 4;
+    }
+    
+    .item3{
+        grid-row: span 3;
+    }
+    
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 768px) {
+    
+    .nav__link {
+        flex-direction: column;
+        padding-top: 50px;
+        
+        
+    }
+    
+    .nav__list {
+        column-gap: 20px;
+        
+        
+    }
+    
+    .header__title {
+        font-size: 55px;
+        text-align: center;
+        
+    }
+    
+    .header__subtitle {
+        margin: 0 auto;
+        
+    }
+    
+    .header__btns {
+        justify-content: center;
+        
+    }
+    
+    .item1__subtitle {
+        text-align: justify;
+        
+    }
+    
+    .item3 {
+        grid-column: span 4;
+        
+    }
+    
+    .fad{
+        font-size: xx-large;
+    }
+    
+    .footer__box {
+        flex-direction: column;
+        row-gap: 20px;
+        
+    }
+    
+    .footer__box-title {
+        fsz15
+        
+    }
+    
+    
+}
+
+@media(max-width: 576px) {
+    .header__title {
+        font-size: 40px;
+        padding: 100px 0 30px;
+        
+    }
+    .premier__content-img {
+        display: flex;
+        margin: 0 auto;
+        width: 300px;
+        
+    }
+    
+    .btn {
+        display: flex;
+        max-width: max-content;
+        margin: 0 auto;
+        
+    }
+    
+    
+}
+
+@media(max-width: 460px) {
+    .item1__title {
+        font-size: 30px;
+        
+    }
+}
+
+@media(max-width: 420px) {
+    .header__title {
+        font-size: 30px;
+        
+    }
+    
+    .header__btns {
+        flex-direction: column;
+        row-gap: 20px;
+        max-width: max-content;
+        margin: 0 auto;
+        
+    }
+    
+    .btn {
+        padding: 15px 30px;
+        
+    }
+    
+    .premier__content-img {
+        display: flex;
+        margin: 0 auto;
+        width: 200px;
+        
+    }
+}
+
+@media(max-width: 350px) {
+    .item1__title {
+        font-size: 25px;
+        
+    }
+    .item1__subtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+        
+    }
+
